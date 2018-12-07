@@ -3,6 +3,9 @@ body {
     background-image: url("images/drums.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
 
 .keys {
@@ -30,4 +33,11 @@ body {
 kbd {
     display: block;
     font-size: 4rem;
+}
+
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: orange;
 }
